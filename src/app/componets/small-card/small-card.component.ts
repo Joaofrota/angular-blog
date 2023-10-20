@@ -1,3 +1,4 @@
+import { I18nPluralPipe } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -11,6 +12,8 @@ export class SmallCardComponent implements OnInit {
   photoCover: string = ""
   @Input()
   cardTitle: string = ""
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 
